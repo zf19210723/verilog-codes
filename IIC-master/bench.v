@@ -87,52 +87,52 @@ end
 initial begin
     -> axi_init;
     #50 rstn = 1;
-
+ 
     #5000
      axi_lite_araddr = 32'h0;
     axi_lite_arvalid = 0;
     axi_lite_rready = 0;
-
+ 
     axi_lite_awaddr = 32'h0000_0505;
     axi_lite_awvalid = 1;
     axi_lite_wdata = 32'h0;
     axi_lite_wvalid = 0;
-
+ 
     axi_lite_bready = 0;
-
+ 
     #2
      -> axi_init;
-
+ 
     #5000
      axi_lite_araddr = 32'h0;
     axi_lite_arvalid = 0;
     axi_lite_rready = 0;
-
+ 
     axi_lite_awaddr = 32'h0;
     axi_lite_awvalid = 0;
     axi_lite_wdata = 32'h0000_0011;
     axi_lite_wvalid = 1;
-
+ 
     axi_lite_bready = 0;
-
+ 
     #2
      ->axi_init;
-
+ 
     #5000
      axi_lite_araddr = 32'h0;
     axi_lite_arvalid = 0;
     axi_lite_rready = 0;
-
+ 
     axi_lite_awaddr = 32'h0;
     axi_lite_awvalid = 0;
     axi_lite_wdata = 32'h0;
     axi_lite_wvalid = 0;
-
+ 
     axi_lite_bready = 1;
-
+ 
     #2
      -> axi_init;
-
+ 
     #5000
      $stop;
 end
@@ -170,7 +170,7 @@ initial begin
     axi_lite_bready = 0;
 
     #2
-     ->axi_init;
+     -> axi_init;
 
     #5000
      $stop;
