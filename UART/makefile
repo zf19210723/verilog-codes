@@ -7,5 +7,6 @@ all : $(SRC)
 	vvp -n $(MIDTARGET)
 	gtkwave $(TARGET)
 
+.PHONY : clean
 clean :
 	rm -rf $(MIDTARGET) $(TARGET)
