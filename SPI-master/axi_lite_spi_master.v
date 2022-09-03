@@ -1,4 +1,4 @@
-module spi_master (
+module axi_lite_spi_master (
            // System interfaces
            input resetn,
            input clk,

@@ -36,11 +36,11 @@ wire [1 : 0] axi_lite_bresp;
 reg axi_lite_bready;
 wire axi_lite_bvalid;
 
-iic_master
+axi_lite_iic_master
     #(
         .C_DIV_SELECT(128)
     )
-    iic_master_inst
+    axi_lite_iic_master_inst
     (
         .resetn(rstn),
         .clk(clk),

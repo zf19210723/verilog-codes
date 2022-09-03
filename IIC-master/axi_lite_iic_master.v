@@ -1,4 +1,4 @@
-module iic_master(
+module axi_lite_iic_master(
            // System sockets
            input resetn,
            input clk,

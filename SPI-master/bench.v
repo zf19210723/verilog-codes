@@ -37,7 +37,7 @@ wire [1 : 0] axi_lite_bresp;
 reg axi_lite_bready;
 wire axi_lite_bvalid;
 
-spi_master spi_master_inst(
+axi_lite_spi_master axi_lite_spi_master_inst(
                // System interfaces
                .resetn(rstn),
                .clk(clk),
