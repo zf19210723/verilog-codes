@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Tasks/PocketLab-RTL/sim
+T_opt
+!s110 1666436286
+VGQMcmR7ZPEgKhfT6=Yc7i0
+Z1 04 5 4 work bench fast 0
+=1-04bf1b1caf05-6353ccbe-330-34b8
+o-quiet -auto_acc_if_foreign -work spi-master +acc
+n@_opt
+OL;O;10.4;61
+R0
+T_opt1
+!s110 1668312859
+V[aHDb=Ga>[kj4O^1b`Jd92
+R1
+=1-04bf1b1caf05-63706f1b-11a-31a0
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt1
+OL;O;10.6d;65
+R0
+vaxi_lite_spi_master
+Z3 !s110 1669812886
+!i10b 1
+!s100 MQ3_DB;8[GmlL=aUJomj70
+ID1=?82@i9cQYdZgcdhT4V2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Projects/Verilog/SPI-master/sim
+w1662165267
+8D:/Projects/Verilog/SPI-master/axi_lite_spi_master.v
+FD:/Projects/Verilog/SPI-master/axi_lite_spi_master.v
+L0 1
+Z6 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1669812886.000000
+!s107 D:/Projects/Verilog/SPI-master/axi_lite_spi_master.v|
+!s90 -reportprogress|300|-work|spi-master|-vopt|-stats=none|D:/Projects/Verilog/SPI-master/axi_lite_spi_master.v|
+!i113 0
+Z8 o-work spi-master -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbench
+R3
+!i10b 1
+!s100 SE3:VLH6oJfRffbjWW;Kf2
+I:XW6nZdWzJ4PV8IeeKjYD2
+R4
+R5
+w1666436147
+8D:/Projects/Verilog/SPI-master/bench.v
+FD:/Projects/Verilog/SPI-master/bench.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Projects/Verilog/SPI-master/bench.v|
+!s90 -reportprogress|300|-work|spi-master|-vopt|-stats=none|D:/Projects/Verilog/SPI-master/bench.v|
+!i113 0
+R8
+R2
+vspi_master_recv
+R3
+!i10b 1
+!s100 mg:QP@G90kB`E<@A^ZkMX0
+IWB3bfL]]hEo`d1zI]8nU30
+R4
+R5
+w1662030692
+8D:/Projects/Verilog/SPI-master/spi_master_recv.v
+FD:/Projects/Verilog/SPI-master/spi_master_recv.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Projects/Verilog/SPI-master/spi_master_recv.v|
+!s90 -reportprogress|300|-work|spi-master|-vopt|-stats=none|D:/Projects/Verilog/SPI-master/spi_master_recv.v|
+!i113 0
+R8
+R2
+vspi_master_send
+R3
+!i10b 1
+!s100 BZIAbc]aL]20AKC8H7Gg70
+IAcD;?1jR]]36A8>ojG;kD1
+R4
+R5
+w1662030080
+8D:/Projects/Verilog/SPI-master/spi_master_send.v
+FD:/Projects/Verilog/SPI-master/spi_master_send.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Projects/Verilog/SPI-master/spi_master_send.v|
+!s90 -reportprogress|300|-work|spi-master|-vopt|-stats=none|D:/Projects/Verilog/SPI-master/spi_master_send.v|
+!i113 0
+R8
+R2

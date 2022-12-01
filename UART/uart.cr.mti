@@ -1,0 +1,22 @@
+D:/Projects/Verilog/UART/bench.v {1 {vlog -work work -vopt -stats=none D:/Projects/Verilog/UART/bench.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bench
+
+Top level modules:
+	bench
+
+} {} {}} D:/Projects/Verilog/UART/uart_rx.v {1 {vlog -work work -vopt -stats=none D:/Projects/Verilog/UART/uart_rx.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} D:/Projects/Verilog/UART/uart_tx.v {1 {vlog -work work -vopt -stats=none D:/Projects/Verilog/UART/uart_tx.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}}

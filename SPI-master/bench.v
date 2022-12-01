@@ -2,11 +2,6 @@
 
 module bench ();
 
-initial begin
-    $dumpfile("test.vcd");
-    $dumpvars;
-end
-
 reg clk = 0;
 always #1 clk = ~clk;
 
@@ -151,8 +146,6 @@ initial begin
 
     #10 ->axi_init;
 
-    #5000
-    $stop;
 end
 
 endmodule

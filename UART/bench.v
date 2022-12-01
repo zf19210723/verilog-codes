@@ -2,11 +2,6 @@
 
 module bench ();
 
-initial begin
-    $dumpfile("test.vcd");
-    $dumpvars;
-end
-
 localparam DELAY = 101;
 
 reg clk = 0;
@@ -59,8 +54,6 @@ initial begin
     #5000 byte_buffer = 8'h56;
     -> send_byte;
 
-    #100
-    $stop;
 end
 
 endmodule

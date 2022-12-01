@@ -1,0 +1,29 @@
+D:/Projects/Verilog/SPI-master/spi_master_send.v {1 {vlog -work spi-master -vopt -stats=none D:/Projects/Verilog/SPI-master/spi_master_send.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module spi_master_send
+
+Top level modules:
+	spi_master_send
+
+} {} {}} D:/Projects/Verilog/SPI-master/bench.v {1 {vlog -work spi-master -vopt -stats=none D:/Projects/Verilog/SPI-master/bench.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module bench
+
+Top level modules:
+	bench
+
+} {} {}} D:/Projects/Verilog/SPI-master/axi_lite_spi_master.v {1 {vlog -work spi-master -vopt -stats=none D:/Projects/Verilog/SPI-master/axi_lite_spi_master.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module axi_lite_spi_master
+
+Top level modules:
+	axi_lite_spi_master
+
+} {} {}} D:/Projects/Verilog/SPI-master/spi_master_recv.v {1 {vlog -work spi-master -vopt -stats=none D:/Projects/Verilog/SPI-master/spi_master_recv.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module spi_master_recv
+
+Top level modules:
+	spi_master_recv
+
+} {} {}}
